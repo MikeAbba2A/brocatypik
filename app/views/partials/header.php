@@ -21,9 +21,9 @@
             </li>
 
             <li><a href="/proposer_produit">Proposer un produit</a></li>
-            <li><a href="/contact">Les boutiques</a></li>
+            <li><a href="/boutiques">Les boutiques</a></li>
             <li><a href="/contact">Contact</a></li>
-            <li><a href="/contact">Connexion</a></li>
+            <li><a href="/login">Connexion</a></li>
         </ul>
     </nav>
 </header>
