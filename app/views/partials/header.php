@@ -1,13 +1,3 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?= $title ?? 'Titre par défaut' ?></title>
-    <link rel="stylesheet" href="/css/style.css">
-    <script src="/js/dropdown_menu.js"></script>
-</head>
-<body>
 <header>
     <div class="top-bar">
         <p>Livraison France entière du plus petit au plus grand meuble - Belgique / Luxembourg & Corse sur devis</p>
@@ -25,7 +15,7 @@
                 <a href="#" class="dropdown-link">Mes produits</a>
                 <ul class="dropdown-menu">
                     <li><a href="/produits/tous_produits">Tous les produits</a></li>
-                    <li><a href="/produits/nouveautes">Tous les produits</a></li>
+                    <li><a href="/produits/nouveautes">Nouveautés</a></li>
                     <li><a href="/produits/ancien">Ancien</a></li>
                 </ul>
             </li>
