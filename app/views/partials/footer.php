@@ -20,13 +20,13 @@
 
     <div class="footer-bottom">
         <div class="brand">
-            <img src="logo.png" alt="Logo moka" />
+            <img src="logo.png" alt="Logo BROKA" />
             <p>Vente de meubles et objets chinés avec passion.<br />Expédition sur toute la France.<br />À l'étranger sur devis.</p>
         </div>
         <div class="contact">
             <h3>CONTACT</h3>
-            <p>07 87 97 53 03<br />contact@moka-brocante.com</p>
-            <p>Lieu dit les Mortiers<br />Le Marillais<br />49410 MAUGES SUR LOIRE</p>
+            <p>01 02 03 04 05<br />contact@broka.com</p>
+            <p>Rue Fesch<br />20000 Ajaccio</p>
         </div>
         <div class="infos">
             <h3>INFOS</h3>

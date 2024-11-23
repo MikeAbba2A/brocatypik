@@ -7,6 +7,8 @@ include '../app/views/partials/header.php';
    
 </main>
 
+
+
 <?php
 // Inclure le footer
 include '../app/views/partials/footer.php';
