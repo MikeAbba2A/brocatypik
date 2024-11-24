@@ -1,4 +1,10 @@
-<?php include '../app/views/partials/header.php'; ?>
+<?php 
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+include '../app/views/partials/header.php'; ?>
+
+
 
 <main class="login-page">
     <section class="login-container">
