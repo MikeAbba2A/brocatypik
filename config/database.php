@@ -1,13 +1,29 @@
 <?php
-$dbHost = '127.0.0.1'; // Serveur local
-$dbName = 'brocatypik'; // Remplace par le nom de ta base de données
-$dbUser = 'root'; // Utilisateur par défaut
-$dbPass = 'gv1re54g1ver5gv15b1rh5erb8e(e98e89b'; // Mot de passe vide par défaut sur WAMP
 
-try {
-    $pdo = new PDO("mysql:host=$dbHost;dbname=$dbName;charset=utf8", $dbUser, $dbPass);
-    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-    echo "Connexion réussie à la base de données !";
-} catch (PDOException $e) {
-    die('Erreur de connexion à la base de données : ' . $e->getMessage());
+class DataBase{
+
+    const SERVEUR = "localhost";
+    const BDD = "brokatypic";
+    const USER = "root";
+    const MDP = "gv1re54g1ver5gv15b1rh5erb8e(e98e89b";
+
+    private $connexion;
+
+    public function __construct(){
+        try
+        {
+            $this -> connexion = new PDO("mysql:host=".self::SERVEUR.";dbname=".self::BDD,self::USER,self::MDP);// -> appel à une méthode PDO
+            $this -> connexion -> exec("SET CHARACTER SET utf8");// gestion des accents 
+        
+        } 
+        catch(Exception $message)
+        {
+            die("erreur de connexion ".$message->getMessage());
+        } 
+    }
+
+    public function getConnexion()
+    {
+        return $this -> connexion;
+    }
 }

@@ -1,0 +1,104 @@
+<?php 
+$userController = new UserController();
+// $adminController = new AdminController();
+?> 
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initiale-scale=1.0">
+    <title>Brocatypik</title>
+    <link rel="icon" type="image/x-icon" href="www/images/favicon.ico">
+    <link rel="stylesheet" href="www/css/styles.css" type="text/css">
+    <link rel="stylesheet" href="www/css/normalize.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+</head>
+<body>
+<header>
+    <div class="top-bar">
+        <p>Livraison France entière du plus petit au plus grand meuble - Belgique / Luxembourg & Corse sur devis</p>
+    </div>
+    <div class="logo-container">
+        <img src="/images/logo.png" alt="Logo">
+    </div>
+    <nav class="main-nav">
+        <ul>
+            <li><a href="/">Accueil</a></li>
+            <li><a href="/nouveautes">Actualités</a></li>
+            <li><a href="/actualites">Actualités</a></li>
+
+            <li class="dropdown">
+                <a href="#" class="dropdown-link">Mes produits</a>
+                <ul class="dropdown-menu">
+                    <li><a href="/produits/tous_produits">Tous les produits</a></li>
+                    <li><a href="/produits/nouveautes">Nouveautés</a></li>
+                    <li><a href="/produits/ancien">Ancien</a></li>
+                </ul>
+            </li>
+
+            <li><a href="/proposer_produit">Proposer un produit</a></li>
+            <li><a href="/boutiques">Les boutiques</a></li>
+            <li><a href="/contact">Contact</a></li>
+            <li><a href="/login">Connexion</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+</main>
+
+<footer class="footer">
+    <div class="newsletter">
+        <h2>Votre intérieur va adorer notre newsletter</h2>
+        <form>
+            <input type="email" placeholder="Votre Email*" required />
+            <button type="submit">INSCRIPTION</button>
+        </form>
+    </div>
+
+    <div class="footer-sections">
+        <div class="section">
+            <h3>Paiements sécurisés</h3>
+            <p>PayPal (en 4 fois possible) / Carte bancaire / Apple Pay</p>
+        </div>
+        <div class="section">
+            <h3>Livraison</h3>
+            <p>France entière (Hors Corse)<br />À l'étranger sur devis</p>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <div class="brand">
+            <img src="logo.png" alt="Logo BROKA" />
+            <p>Vente de meubles et objets chinés avec passion.<br />Expédition sur toute la France.<br />À l'étranger sur devis.</p>
+        </div>
+        <div class="contact">
+            <h3>CONTACT</h3>
+            <p>01 02 03 04 05<br />contact@broka.com</p>
+            <p>Rue Fesch<br />20000 Ajaccio</p>
+        </div>
+        <div class="infos">
+            <h3>INFOS</h3>
+            <ul>
+                <li><a href="#">À PROPOS</a></li>
+                <li><a href="#">CONTACT & LIVRAISON</a></li>
+                <li><a href="#">CGV & INFOS</a></li>
+            </ul>
+        </div>
+        <div class="account">
+            <h3>COMPTE</h3>
+            <ul>
+                <li><a href="#">CONNEXION</a></li>
+                <li><a href="#">MON COMPTE</a></li>
+                <li><a href="#">MES COMMANDES</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+
+</body>
+</html>
